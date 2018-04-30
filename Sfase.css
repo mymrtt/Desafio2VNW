@@ -1,0 +1,82 @@
+nav {
+	font-family: 'Open Sans', sans-serif;
+}
+
+ul {
+	display: flex;
+	flex-direction: column;
+	position: fixed;
+	top: 68%;
+	left: -2%;
+}
+
+@media (max-width: 640px) {
+	ul {
+		display: flex;
+		flex-direction: row;
+		left: 3%;
+	}
+}
+
+li {
+	list-style: none;
+	margin: 5px;
+}
+
+section {
+	font-family: 'Open Sans', sans-serif;
+	margin: 5%;
+}
+
+@media (max-width: 640px) {
+	h1 {
+		width: -1px;
+	}
+}
+
+.container-imagem {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.imagem {
+	width: 90%;
+	border: 23px solid #FF8DB8;
+}
+
+.paragraf-img {
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+	position: absolute;
+	top: 161%;
+	left: 76%;
+}
+
+.imagem2 {
+	width: 100%;
+}
+
+.container-button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+footer {
+	background-image: url(./assets/imagem2.jpeg);
+	height: 100vh;
+	background-size: 100%;
+	background-repeat: no-repeat;
+
+}
+
+.loremipsum-button {
+	font-family: 'Open Sans', sans-serif;
+	background-color: #fff;
+	border-color: #fff;
+	padding: 10px;
+	margin-top: 48%;
+
+}
+
